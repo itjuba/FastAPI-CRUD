@@ -24,7 +24,7 @@ def get_db():
         db.close()
 
 @router.post("/users/", response_model=schemas.User)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     db_user = views.get_user_by_email(db, email=user.email)
     if db_user:
         raise HTTPException(status_code=400, detail="Email already registered")
@@ -32,7 +32,7 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
 
 
 @router.get("/users/{user_id}", response_model=schemas.User)
-def get_user_by_id(user_id: int, db: Session = Depends(get_db)):
+async def get_user_by_id(user_id: int, db: Session = Depends(get_db)):
     print("reading one user")
     db_user = views.get_user(db, user_id=user_id)
     if db_user is None:
@@ -41,13 +41,13 @@ def get_user_by_id(user_id: int, db: Session = Depends(get_db)):
 
 
 @router.get("/users/", response_model=List[schemas.User])
-def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+async def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     users = views.get_users(db, skip=skip, limit=limit)
     return users
 
 
 @router.get("/get_user_by_email/{email}", response_model=schemas.User)
-def get_user_by_email2(email: str, db: Session = Depends(get_db)):
+async def get_user_by_email2(email: str, db: Session = Depends(get_db)):
     print("here man")
     print("email url",email)
     users = views.get_user_by_email(db, email=email)
