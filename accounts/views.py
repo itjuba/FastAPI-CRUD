@@ -39,8 +39,7 @@ def get_user(db: Session, user_id: int):
 
 
 def get_user_by_email(db: Session, email: str):
-    print("email here",email)
-    print("db",Session)
+
     return db.query(models.User).filter(models.User.email == email).first()
 
 def create_user_item(db: Session, item: schemas.ItemCreate, user_id: int):

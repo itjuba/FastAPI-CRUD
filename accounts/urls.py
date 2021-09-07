@@ -15,7 +15,6 @@ router = APIRouter()
 from accounts import views, models, schemas
 
 
-
 def get_db():
     db = SessionLocal()
     try:

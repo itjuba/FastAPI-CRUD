@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba5d70e-e31f-4648-a41c-c73c6afb82c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FastAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +124,32 @@
       <workItem from="1628592311791" duration="239000" />
       <workItem from="1628592900728" duration="2340000" />
       <workItem from="1628596484093" duration="6166000" />
-      <workItem from="1628679469924" duration="808000" />
+      <workItem from="1628679469924" duration="1048000" />
+      <workItem from="1628685699548" duration="643000" />
+      <workItem from="1628697358299" duration="4187000" />
+      <workItem from="1628718810377" duration="813000" />
+      <workItem from="1628720115218" duration="5000" />
+      <workItem from="1628721198365" duration="778000" />
+      <workItem from="1628722369758" duration="1000" />
+      <workItem from="1628724955198" duration="1218000" />
+      <workItem from="1628788577387" duration="678000" />
+      <workItem from="1628852326929" duration="1591000" />
+      <workItem from="1628865711852" duration="196000" />
+      <workItem from="1629036264583" duration="1931000" />
+      <workItem from="1629378959479" duration="585000" />
+      <workItem from="1629408107751" duration="3000" />
+      <workItem from="1629577339097" duration="3040000" />
+      <workItem from="1629743798622" duration="619000" />
+      <workItem from="1630164912281" duration="59000" />
+      <workItem from="1630165090141" duration="469000" />
+      <workItem from="1630326014489" duration="408000" />
+      <workItem from="1630404882676" duration="1000" />
+      <workItem from="1630920110258" duration="15792000" />
+      <workItem from="1630955243963" duration="759000" />
+      <workItem from="1630960094336" duration="341000" />
+      <workItem from="1630960438626" duration="2000" />
+      <workItem from="1630960449668" duration="1000" />
+      <workItem from="1631001028696" duration="7252000" />
     </task>
     <servers />
   </component>
@@ -138,7 +170,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/accounts/views.py</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

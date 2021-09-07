@@ -11,7 +11,7 @@ class ItemBase(BaseModel):
 class ItemCreate(ItemBase):
     pass
 
-
+# me chasing a bloody mosquitos family
 class Item(ItemBase):
     id: int
     owner_id: int
