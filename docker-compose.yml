@@ -5,7 +5,7 @@ version: '3.8'
 services:
   web:
     build: .
-    command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; uvicorn main:app --host 0.0.0.0'
+    command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; alembic upgrade head && uvicorn main:app --host 0.0.0.0'
     volumes:
       - .:/app
     ports:
@@ -26,6 +26,19 @@ services:
       - POSTGRES_PASSWORD=${pwd}
       - POSTGRES_DB=fast_api
       - DATABASE_URL="postgresql://${user}:${pwd}@127.0.0.1:5432/fast_api"
+
+
+  pgadmin:
+      image: dpage/pgadmin4
+      depends_on:
+        - db
+      ports:
+        - 5454:5454/tcp
+      environment:
+        PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
+        PGADMIN_DEFAULT_PASSWORD: admin
+        PGADMIN_LISTEN_PORT: 5454
+      restart: unless-stopped
 
 volumes:
   postgres_data:

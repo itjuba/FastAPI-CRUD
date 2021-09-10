@@ -2,8 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba5d70e-e31f-4648-a41c-c73c6afb82c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/.flake8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic/versions/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/alembic/versions/d4867f3a4c0a_first_revision.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/endpoints/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/endpoints/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/endpoints/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/endpoints/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/api_v1/endpoints/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/api/deps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/backend_pre_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/celeryworker_pre_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/core/celery_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/core/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/core/security.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/crud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/crud/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/crud/crud_item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/crud/crud_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/db/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/db/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/db/base_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/db/init_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/db/session.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/build/new_account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/build/reset_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/build/test_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/src/new_account.mjml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/src/reset_password.mjml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/email-templates/src/test_email.mjml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/initial_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/models/item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/models/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/schemas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/schemas/item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/schemas/msg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/schemas/token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/schemas/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/api_v1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/api_v1/test_celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/api_v1/test_items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/api_v1/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/api/api_v1/test_users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/crud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/crud/test_item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/crud/test_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/utils/item.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/utils/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/tests_pre_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/app/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/mypy.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/prestart.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/scripts/format-imports.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/scripts/format.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/scripts/lint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/scripts/test-cov-html.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/scripts/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/tests-start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/app/worker-start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/backend.dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/backend/celeryworker.dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/cookiecutter-config-file.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/docker-compose.override.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/nginx-backend-not-found.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/msapplication-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/img/icons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/component-hooks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/components/NotificationsManager.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/components/RouterComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/components/UploadButton.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/interfaces/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/plugins/vee-validate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/plugins/vuetify.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/registerServiceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/shims-tsx.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/shims-vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/admin/actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/admin/getters.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/admin/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/admin/mutations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/admin/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/main/actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/main/getters.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/main/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/main/mutations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/main/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/store/state.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/PasswordRecovery.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/ResetPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/Dashboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/Main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/Start.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/admin/Admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/admin/AdminUsers.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/admin/CreateUser.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/admin/EditUser.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/profile/UserProfile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/profile/UserProfileEdit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/src/views/main/profile/UserProfileEditPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/tests/unit/upload-button.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/frontend/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/scripts/build-push.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/scripts/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/scripts/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/scripts/test-local.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-template/base-project/scripts/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +311,18 @@
       <workItem from="1630960094336" duration="341000" />
       <workItem from="1630960438626" duration="2000" />
       <workItem from="1630960449668" duration="1000" />
-      <workItem from="1631001028696" duration="7673000" />
+      <workItem from="1631001028696" duration="8049000" />
+      <workItem from="1631016508797" duration="576000" />
+      <workItem from="1631099677670" duration="27000" />
+      <workItem from="1631102069285" duration="7708000" />
+      <workItem from="1631121260351" duration="3000" />
+      <workItem from="1631125252061" duration="2726000" />
+      <workItem from="1631175613114" duration="5767000" />
+      <workItem from="1631195152010" duration="176000" />
+      <workItem from="1631205335633" duration="2506000" />
+      <workItem from="1631228587611" duration="6000" />
+      <workItem from="1631265942972" duration="7438000" />
+      <workItem from="1631293141772" duration="2853000" />
     </task>
     <servers />
   </component>
@@ -166,6 +345,11 @@
           <url>file://$PROJECT_DIR$/accounts/views.py</url>
           <line>49</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
