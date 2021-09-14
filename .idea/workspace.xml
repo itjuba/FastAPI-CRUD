@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba5d70e-e31f-4648-a41c-c73c6afb82c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/fa1ac20536e9_added_users_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/0b87b4120704_added_users_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +162,17 @@
       <workItem from="1631228587611" duration="6000" />
       <workItem from="1631265942972" duration="7438000" />
       <workItem from="1631293141772" duration="3641000" />
-      <workItem from="1631356305013" duration="3141000" />
+      <workItem from="1631356305013" duration="4725000" />
+      <workItem from="1631394119566" duration="433000" />
+      <workItem from="1631526634899" duration="8968000" />
+      <workItem from="1631543258153" duration="3428000" />
+      <workItem from="1631552003283" duration="5777000" />
+      <workItem from="1631571866774" duration="114000" />
+      <workItem from="1631617202278" duration="5562000" />
+      <workItem from="1631622769889" duration="1696000" />
+      <workItem from="1631624470092" duration="6170000" />
+      <workItem from="1631640641253" duration="3347000" />
+      <workItem from="1631652290214" duration="474000" />
     </task>
     <servers />
   </component>
@@ -174,6 +189,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,12 +205,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/accounts/views.py</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
