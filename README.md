@@ -1,3 +1,3 @@
 # FastAPI-CRUD
 
-Python FastAPI project boilerplate
+Python FastAPI project boilerplate .
